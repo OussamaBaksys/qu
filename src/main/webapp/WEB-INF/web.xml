@@ -1,0 +1,37 @@
+<!-- webapp/WEB-INF/web.xml -->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+	<display-name>Questify plateforme</display-name>
+
+	<welcome-file-list>
+		<welcome-file>home</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+	    <servlet-name>dispatcher</servlet-name>
+	    <servlet-class>
+	        org.springframework.web.servlet.DispatcherServlet
+	    </servlet-class>
+	    <init-param>
+	        <param-name>contextConfigLocation</param-name>
+	        <param-value>/WEB-INF/questify.xml</param-value>
+	    </init-param>
+	    <load-on-startup>1</load-on-startup>
+    </servlet>
+	<servlet-mapping>
+	    <servlet-name>dispatcher</servlet-name>
+	    <url-pattern>/</url-pattern>
+    </servlet-mapping>
+	   
+	 
+	   
+	<!-- this page is used for exceptions that might be occurred inside jsp files
+   		because they are not handled by the controller advice
+    -->
+    <error-page>
+	    <location>/WEB-INF/views/error.jsp</location>
+	</error-page>
+	
+</web-app> 

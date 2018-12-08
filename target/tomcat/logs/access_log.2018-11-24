@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:13:03 +0100] "GET / HTTP/1.1" 404 5 http-bio-8080-exec-1 141
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:13:34 +0100] "GET / HTTP/1.1" 404 5 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:17 +0100] "GET /publications HTTP/1.1" 200 24066 http-bio-8080-exec-5 3004
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:18 +0100] "GET /lib/css/style.css HTTP/1.1" 200 49 http-bio-8080-exec-8 139
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:18 +0100] "GET /assets/img/profile.png HTTP/1.1" 200 34840 http-bio-8080-exec-1 174
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:18 +0100] "GET /webjars/jquery/3.3.1-1/jquery.min.js HTTP/1.1" 200 86927 http-bio-8080-exec-9 101
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:18 +0100] "GET /webjars/bootstrap/4.1.3/js/bootstrap.bundle.min.js HTTP/1.1" 200 70966 http-bio-8080-exec-10 128
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:18 +0100] "GET /webjars/bootstrap/4.1.3/css/bootstrap.min.css HTTP/1.1" 200 140936 http-bio-8080-exec-6 291
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:18 +0100] "GET /webjars/Semantic-UI/2.4.0/semantic.min.css HTTP/1.1" 200 628512 http-bio-8080-exec-7 620
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:19 +0100] "GET /webjars/Semantic-UI/2.4.0/semantic.min.js HTTP/1.1" 200 275990 http-bio-8080-exec-7 117
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:19 +0100] "GET /lib/js/addResponse.js HTTP/1.1" 200 403 http-bio-8080-exec-6 9
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:20 +0100] "GET /webjars/Semantic-UI/2.4.0/themes/default/assets/fonts/outline-icons.woff2 HTTP/1.1" 200 12240 http-bio-8080-exec-7 238
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:20 +0100] "GET /webjars/Semantic-UI/2.4.0/themes/default/assets/fonts/icons.woff2 HTTP/1.1" 200 40148 http-bio-8080-exec-6 240
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:40 +0100] "GET /review?id=0 HTTP/1.1" 200 9672 http-bio-8080-exec-4 669
+0:0:0:0:0:0:0:1 - - [24/Nov/2018:16:14:49 +0100] "GET /publications HTTP/1.1" 200 24066 http-bio-8080-exec-2 29
